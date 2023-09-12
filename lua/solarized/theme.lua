@@ -110,7 +110,7 @@ theme.loadEditor = function ()
         LineNr =           { fg = solarized.line_numbers, bg = solarized.bg_alt },
         CursorLineNr =     { fg = solarized.accent },
         MatchParen =       { fg = solarized.purple, bg = solarized.none, style = 'bold' },
-        ModeMsg =          { fg = solarized.accent },
+        ModeMsg =          { fg = solarized.text },
         MoreMsg =          { fg = solarized.accent },
         NonText =          { fg = solarized.disabled },
         Pmenu =            { fg = solarized.fg, bg = solarized.none },
@@ -183,7 +183,6 @@ theme.loadEditor = function ()
 end
 
 theme.loadTerminal = function ()
-
     vim.g.terminal_color_0 = solarized.black
     vim.g.terminal_color_1 = solarized.red
     vim.g.terminal_color_2 = solarized.green
@@ -200,7 +199,6 @@ theme.loadTerminal = function ()
     vim.g.terminal_color_13 = solarized.yellow
     vim.g.terminal_color_14 = solarized.cyan
     vim.g.terminal_color_15 = solarized.white
-
 end
 
 theme.loadTreeSitter = function ()
