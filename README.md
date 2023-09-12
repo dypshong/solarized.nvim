@@ -1,4 +1,6 @@
-# shaunsingh/solarized.nvim
+# dypshong/solarized.vim
+## A Neovim LSP-friendly version of solarzied theme 
+- forked from shaunsingh/solarized.nvim
 
 ## based off of the [Solarized Light Theme](https://github.com/altercation/vim-colors-solarized) for Vim
 
