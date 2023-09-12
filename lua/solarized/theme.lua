@@ -110,7 +110,7 @@ theme.loadEditor = function ()
         LineNr =           { fg = solarized.line_numbers, bg = solarized.bg_alt },
         CursorLineNr =     { fg = solarized.accent },
         MatchParen =       { fg = solarized.purple, bg = solarized.none, style = 'bold' },
-        ModeMsg =          { fg = solarized.text },
+        ModeMsg =          { fg = solarized.paleblue },
         MoreMsg =          { fg = solarized.accent },
         NonText =          { fg = solarized.disabled },
         Pmenu =            { fg = solarized.fg, bg = solarized.none },
@@ -148,6 +148,7 @@ theme.loadEditor = function ()
         VisualMode =       { fg = solarized.yellow, bg = solarized.none, style = 'reverse' },
         CommandMode =      { fg = solarized.fg, bg = solarized.none, style = 'reverse' },
         Warnings =         { fg = solarized.purple },
+        
 
         healthError =     { fg = solarized.error },
         healthSuccess =   { fg = solarized.green },
