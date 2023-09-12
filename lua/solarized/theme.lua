@@ -110,7 +110,7 @@ theme.loadEditor = function ()
         LineNr =           { fg = solarized.line_numbers, bg = solarized.bg_alt },
         CursorLineNr =     { fg = solarized.accent },
         MatchParen =       { fg = solarized.purple, bg = solarized.none, style = 'bold' },
-        ModeMsg =          { fg = solarized.paleblue },
+        ModeMsg =          { fg = solarized.blue },
         MoreMsg =          { fg = solarized.accent },
         NonText =          { fg = solarized.disabled },
         Pmenu =            { fg = solarized.fg, bg = solarized.none },
